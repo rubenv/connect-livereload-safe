@@ -1,0 +1,31 @@
+{
+  "name": "connect-livereload-safe",
+  "version": "0.0.0",
+  "description": "A safer way to inject livereload during development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt build"
+  },
+  "keywords": [
+    "connect",
+    "livereload",
+    "live-reload"
+  ],
+  "author": {
+    "name": "Ruben Vermeersch",
+    "email": "ruben@savanne.be",
+    "url": "http://savanne.be/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-release": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.7.1"
+  },
+  "homepage": "https://github.com/rubenv/connect-livereload-safe",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rubenv/connect-livereload-safe.git"
+  }
+}
