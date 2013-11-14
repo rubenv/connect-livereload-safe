@@ -11,7 +11,7 @@ module.exports = function (options) {
 
     return rewrite({
         accept: function (res) {
-            return res.getHeader('content-type').match(/text\/html/);
+            return (res.getHeader('content-type') || '').match(/text\/html/);
         },
         rewrite: function (body) {
             return body.replace(/(<\/body>)/, script + "$1");
