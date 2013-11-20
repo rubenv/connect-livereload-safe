@@ -29,6 +29,6 @@
     "url": "git://github.com/rubenv/connect-livereload-safe.git"
   },
   "dependencies": {
-    "connect-body-rewrite": "0.0.1"
+    "connect-body-rewrite": "~0.0.2"
   }
 }
